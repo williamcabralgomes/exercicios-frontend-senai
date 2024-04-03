@@ -1,0 +1,24 @@
+/* Estilos para a classe .divPrincipal */
+.divPrincipal {
+    display: flex; /* Utiliza flexbox para layout */
+    flex-direction: row; /* Dispor os elementos em linha horizontal */
+    justify-content: center; /* Centralizar os elementos horizontalmente */
+    align-items: center; /* Centralizar os elementos verticalmente */
+    text-align: center; /* Alinhar o texto ao centro */
+    background-color: rgb(34, 9, 124); /* Cor de fundo */
+    color: yellow; /* Cor do texto */
+    font-size: 30px; /* Tamanho da fonte */
+    margin: 0 10px; /* Margem externa */
+}
+
+/* Estilos para a classe .botao */
+.botao {
+    padding: 8px 20px; /* Adicionar preenchimento ao botão */
+    background-color: #007bff; /* Cor de fundo do botão */
+    color: white; /* Cor do texto do botão */
+    border: none; /* Remover a borda do botão */
+    border-radius: 5px; /* Adicionar borda arredondada ao botão */
+    font-size: 16px; /* Tamanho da fonte */
+    cursor: pointer; /* Alterar o cursor para indicar que é clicável */
+    margin: 0 10px; /* Margem externa */
+}

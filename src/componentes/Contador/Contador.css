@@ -1,0 +1,25 @@
+/* Define estilos para a classe .divContador */
+.divContador {
+    display: flex; /* Torna o conteúdo flexível */
+    justify-content: center; /* Alinha o conteúdo ao centro horizontalmente */
+    background-color: yellow; /* Define a cor de fundo como amarelo */
+}
+
+/* Define estilos para a classe .botaoMais1 */
+.botaoMais1 {
+    background-color: blue; /* Define a cor de fundo do botão como azul */
+    color: white; /* Define a cor do texto do botão como branco */
+    margin-right: 10px; /* Define a margem direita como 10px para separar os botões */
+}
+
+/* Define estilos para a classe .botaoMenos1 */
+.botaoMenos1 {
+    background-color: rgb(5, 131, 5); /* Define a cor de fundo do botão como verde */
+    color: white; /* Define a cor do texto do botão como branco */
+    margin-right: 10px; /* Define a margem direita como 10px para separar os botões */
+}
+
+/* Define estilos para a classe .numeroContador */
+.numeroContador {
+    color: rgb(239, 11, 91); /* Define a cor do texto como rosa */
+}

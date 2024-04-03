@@ -1,0 +1,45 @@
+/* Estilo para o contêiner dos botões */
+.containerBotoes {
+    display: flex; /* Faz com que os elementos filhos se comportem como itens flexíveis */
+    justify-content: center; /* Centraliza os elementos filhos horizontalmente */
+    background-color: red; /* Define a cor de fundo do contêiner */
+}
+
+/* Estilo para o primeiro botão */
+.botao1 {
+    padding: 5px 10px; /* Adiciona preenchimento interno de 5px na parte superior e inferior e 10px nos lados */
+    font-size: 16px; /* Define o tamanho da fonte como 16 pixels */
+    background-color: black; /* Define a cor de fundo do botão como preto */
+    color: #fff; /* Define a cor do texto como branco */
+    border-radius: 5px; /* Adiciona bordas arredondadas com raio de 5 pixels */
+    margin-right: 10px; /* Adiciona uma margem de 10 pixels à direita do botão */
+    margin-bottom: 20px; /* Adiciona uma margem de 20 pixels abaixo do botão */
+}
+
+/* Estilo para o segundo botão */
+.botao2 {
+    padding: 5px 10px; /* Mesmo que acima */
+    font-size: 16px; /* Mesmo que acima */
+    background-color: green; /* Define a cor de fundo do botão como verde */
+    border-radius: 5px; /* Adiciona bordas arredondadas com raio de 5 pixels */
+    margin-right: 10px; /* Adiciona uma margem de 10 pixels à direita do botão */
+    margin-bottom: 20px; /* Adiciona uma margem de 20 pixels abaixo do botão */
+}
+
+/* Estilo para o terceiro botão */
+.botao3 {
+    padding: 5px 10px; /* Mesmo que acima */
+    font-size: 16px; /* Mesmo que acima */
+    background-color: yellow; /* Define a cor de fundo do botão como amarelo */
+    color: black; /* Define a cor do texto como preto */
+    border-radius: 5px; /* Adiciona bordas arredondadas com raio de 5 pixels */
+    margin-right: 10px; /* Adiciona uma margem de 10 pixels à direita do botão */
+    margin-bottom: 20px; /* Adiciona uma margem de 20 pixels abaixo do botão */
+}
+
+/* Estilo para a resposta */
+.resposta {
+    text-align: center; /* Alinha o texto ao centro */
+    margin-top: 1px; /* Adiciona uma pequena margem acima do texto */
+    font-size: 30px; /* Define o tamanho da fonte como 30 pixels */
+}
